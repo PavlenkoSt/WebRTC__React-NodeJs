@@ -1,3 +1,5 @@
+import { nanoid } from "nanoid";
+
 const users = {};
 
 export default function initSocket(socket) {
